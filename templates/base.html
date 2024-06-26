@@ -1,0 +1,23 @@
+{% load static tailwind_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <title>MELLC CRM</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		{% tailwind_css %}
+	</head>
+
+	<body class="bg-slate-600 font-serif text-white">
+		<div class="">
+			{% include 'navbar.html' %}
+			<section class="flex justify-center h-screen m-5">
+				{% block content %}
+				{% endblock %}
+			</section>
+		</div>
+		<footer class="text-center p-2 bg-gray-900"> Developed by MarcDevCEO</footer>
+	</body>
+</html>
