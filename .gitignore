@@ -1,0 +1,44 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+*.mo
+
+# If you are using PostgreSQL
+*.pg
+
+# Django static files
+/static/
+/media/
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# If you're using environment variables
+.env
+
+# If you're using virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# If you're using PyCharm
+.idea/
+
+# If you're using Visual Studio Code
+.vscode/
+
+# If you're using Jupyter notebooks
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
