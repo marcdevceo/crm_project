@@ -36,6 +36,7 @@ INSTALLED_APPS = [
 
     # my apps
     "customer_hub",
+    "users",
 
     # third party apps
     "tailwind",
