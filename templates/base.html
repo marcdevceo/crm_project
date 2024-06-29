@@ -10,7 +10,7 @@
 		{% tailwind_css %}
 	</head>
 
-	<body class="bg-slate-600 font-serif text-white">
+	<body class="bg-slate-600 font-serif text-white {% block background %}{% endblock %}">
 		<div class="">
 			{% include 'navbar.html' %}
 			<section class="flex justify-center h-screen m-5">

@@ -810,6 +810,10 @@ select {
   width: auto;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .max-w-7xl {
   max-width: 80rem;
 }

@@ -53,14 +53,14 @@ class Member(AbstractBaseUser, PermissionsMixin):
 
     groups = models.ManyToManyField(
         Group,
-        related_name='member_groups',  # Unique related_name
+        related_name='member_groups', 
         blank=True,
         help_text='The groups this user belongs to.',
         related_query_name='member',
     )
     user_permissions = models.ManyToManyField(
         Permission,
-        related_name='member_permissions',  # Unique related_name
+        related_name='member_permissions',  
         blank=True,
         help_text='Specific permissions for this user.',
         related_query_name='member',
