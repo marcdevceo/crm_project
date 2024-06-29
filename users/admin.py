@@ -20,4 +20,3 @@ class MembersAdmin(admin.ModelAdmin):
 
 admin.site.register(Member, MembersAdmin)
 
-# Register your models here.
